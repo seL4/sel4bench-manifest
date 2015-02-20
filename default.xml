@@ -11,12 +11,12 @@
   -->
 
 <manifest>
-<remote name="sel4bench"
+<remote name="seL4"
 fetch="."
 />
 
 <default revision="master"
-remote="sel4bench"
+remote="seL4"
 />
 
 <project name="seL4.git" path="kernel"/>
