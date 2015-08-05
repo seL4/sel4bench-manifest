@@ -47,7 +47,7 @@ fetch="../alyons"
 </project>
 
 <!-- forked repos -->
-<project remote="sched" name="libsel4simple.git" path="libs/libsel4simple" revision="rt"/>
+<project remote="sched" name="libsel4simple.git" path="libs/libsel4simple"/>
 <project remote="sched" name="seL4.git" path="kernel" revision="rt" />
 <project remote="sched" name="libsel4utils.git" path="libs/libsel4utils" revision="rt"/>
 <project remote="sched" name="libsel4sched.git" path="libs/libsel4sched"/>
