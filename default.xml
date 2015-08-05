@@ -29,7 +29,6 @@ fetch="../alyons"
 <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys"/>
 <project name="libsel4platsupport.git" path="libs/libsel4platsupport"/>
-<project name="libsel4twinkle.git" path="libs/libsel4twinkle"/>
 <project name="libsel4vspace.git" path="libs/libsel4vspace"/>
 <project name="libcpio.git" path="libs/libcpio"/>
 <project name="libelf.git" path="libs/libelf"/>
@@ -53,5 +52,6 @@ fetch="../alyons"
 <project remote="sched" name="libsel4utils.git" path="libs/libsel4utils" revision="rt"/>
 <project remote="sched" name="libsel4sched.git" path="libs/libsel4sched"/>
 <project remote="sched" name="libsel4vka.git" path="libs/libsel4vka" revision="rt"/>
+<project name="libsel4allocman.git" path="libs/libsel4allocman" revision="rt"/>
 
 </manifest>
