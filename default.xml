@@ -37,7 +37,10 @@ fetch="../alyons"
 <project name="libplatsupport.git" path="libs/libplatsupport"/>
 <project name="libutils.git" path="libs/libutils"/>
 <project name="libsel4bench.git" path="libs/libsel4bench"/>
-<project name="sel4bench.git" path="projects/sel4bench">
+
+
+<!-- forked repos -->
+<project remote="sched" name="sel4bench.git" path="projects/sel4bench" revision="rt">
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="Kbuild" dest="Kbuild"/>
     <linkfile src="Kconfig" dest="Kconfig"/>
@@ -46,7 +49,6 @@ fetch="../alyons"
     <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
 </project>
 
-<!-- forked repos -->
 <project remote="sched" name="libsel4simple.git" path="libs/libsel4simple" revision="rt"/>
 <project remote ="sched" name="libsel4allocman.git" path="libs/libsel4allocman" revision="rt"/>
 <project remote="sched" name="seL4.git" path="kernel" revision="rt" />
