@@ -27,7 +27,6 @@ fetch="../alyons"
 <project name="kbuild-tool.git" path="tools/kbuild"/>
 <project name="elfloader-tool.git" path="tools/elfloader"/>
 <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
-<project name="libsel4muslcsys.git" path="libs/libsel4muslcsys"/>
 <project name="libsel4platsupport.git" path="libs/libsel4platsupport"/>
 <project name="libsel4vspace.git" path="libs/libsel4vspace"/>
 <project name="libcpio.git" path="libs/libcpio"/>
@@ -49,6 +48,7 @@ fetch="../alyons"
     <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
 </project>
 
+<project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="rt"/>
 <project remote="sched" name="libsel4simple.git" path="libs/libsel4simple" revision="rt"/>
 <project remote ="sched" name="libsel4allocman.git" path="libs/libsel4allocman" revision="rt"/>
 <project remote="sched" name="seL4.git" path="kernel" revision="rt" />
