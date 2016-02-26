@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
      Copyright 2014, NICTA
 
@@ -19,18 +18,14 @@ fetch="."
 remote="seL4"
 />
 
-<remote name="sched" 
-fetch="../alyons"
-/>
-
-<project remote="sched" name="seL4.git" path="kernel" revision="rt" />
+<project name="seL4.git" path="kernel" revision="rt" />
 <project name="seL4_tools.git" path="projects/tools">
     <linkfile src="common-tool" dest="tools/common"/>
     <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     <linkfile src="elfloader-tool" dest="tools/elfloader" />
 </project>
 <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
-<project remote="sched" name="seL4_libs" path="projects/seL4_libs" revision="rt" >
+<project name="seL4_libs" path="projects/seL4_libs" revision="rt" >
     <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
     <linkfile src="libsel4bench" dest="libs/libsel4bench" />
     <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys" />
@@ -48,7 +43,7 @@ fetch="../alyons"
     <linkfile src="libplatsupport" dest="libs/libplatsupport" />
     <linkfile src="libutils" dest="libs/libutils" />
 </project>
-<project remote="sched" name="sel4bench.git" path="projects/sel4bench" revision="rt">
+<project name="sel4bench.git" path="projects/sel4bench" revision="rt">
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="Kbuild" dest="Kbuild"/>
     <linkfile src="Kconfig" dest="Kconfig"/>
