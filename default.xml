@@ -37,6 +37,7 @@ remote="seL4"
     <linkfile src="libsel4simple" dest="libs/libsel4simple" />
     <linkfile src="libsel4simple-default" dest="libs/libsel4simple-default" />
     <linkfile src="libsel4simple-stable" dest="libs/libsel4simple-stable" />
+    <linkfile src="libsel4debug" dest="libs/libsel4debug" />
 </project>
 <project name="util_libs" path="projects/util_libs">
     <linkfile src="libcpio" dest="libs/libcpio" />
