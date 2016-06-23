@@ -14,7 +14,7 @@
 <remote name="seL4"
 fetch="."
 />
-<remote name="seL4_projects" fetch="../SEL4PROJ/">
+<remote name="seL4_projects" fetch="../SEL4PROJ/"/>
 
 <default revision="master"
 remote="seL4"
