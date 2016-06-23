@@ -14,6 +14,7 @@
 <remote name="seL4"
 fetch="."
 />
+<remote name="seL4_projects" fetch="../SEL4PROJ/">
 
 <default revision="master"
 remote="seL4"
@@ -44,6 +45,9 @@ remote="seL4"
     <linkfile src="libelf" dest="libs/libelf" />
     <linkfile src="libplatsupport" dest="libs/libplatsupport" />
     <linkfile src="libutils" dest="libs/libutils" />
+</project>
+<project name="project_libs" path="projects/projects_libs" remote="seL4_projects">
+    <linkfile src="libjansson" path="libs/libjansson">
 </project>
 <project name="sel4bench.git" path="projects/sel4bench">
     <linkfile src="Makefile" dest="Makefile"/>
