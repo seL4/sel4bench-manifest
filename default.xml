@@ -47,7 +47,7 @@ remote="seL4"
     <linkfile src="libutils" dest="libs/libutils" />
 </project>
 <project name="project_libs" path="projects/projects_libs" remote="seL4_projects">
-    <linkfile src="libjansson" path="libs/libjansson">
+    <linkfile src="libjansson" path="libs/libjansson"/>
 </project>
 <project name="sel4bench.git" path="projects/sel4bench">
     <linkfile src="Makefile" dest="Makefile"/>
