@@ -8,7 +8,7 @@ Use the repo tool as described on [the wiki](https://wiki.sel4.systems/Getting%2
 
     mkdir sel4bench
     cd sel4bench
-    repo init -u https://github.com/seL4/sel4bench-manifest.git
-    make sabre_release_O2_defconfig # replace with platform of your choice
+    repo init -u https://github.com/seL4/sel4bench-manifest.git -b rt
+    make sabre_release_O2_defconfig # replace with platform of your choice - currently only sabre and ia32 work
     make oldconfig
     make
