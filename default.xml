@@ -40,6 +40,8 @@ remote="seL4"
     <linkfile src="libsel4simple-stable" dest="libs/libsel4simple-stable" />
     <linkfile src="libsel4debug" dest="libs/libsel4debug" />
     <linkfile src="libsel4sync" dest="libs/libsel4sync" />
+    <linkfile src="libsel4serialserver" dest="libs/libsel4serialserver" />
+    <linkfile src="libsel4test" dest="libs/libsel4test" />
 </project>
 <project name="util_libs" path="projects/util_libs">
     <linkfile src="libcpio" dest="libs/libcpio" />
