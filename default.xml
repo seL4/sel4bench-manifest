@@ -25,8 +25,13 @@ remote="seL4"
     <linkfile src="common-tool" dest="tools/common"/>
     <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     <linkfile src="elfloader-tool" dest="tools/elfloader" />
+	<linkfile src="cmake-tool" dest="tools/cmake-tool" />
+	<linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
+    <linkfile src="cmake-tool/init_build.sh" dest="init_build.sh"/>
 </project>
-<project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
+<project name="musllibc.git" path="projects/musllibc" revision="sel4">
+    <linkfile src="." dest="libs/libmuslc"/>
+</project>
 <project name="seL4_libs" path="projects/seL4_libs" >
     <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
     <linkfile src="libsel4bench" dest="libs/libsel4bench" />
