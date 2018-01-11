@@ -22,7 +22,7 @@
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="567e233ae72cb9bd5095d0a14ade5c823b945f99" upstream="master">
     <linkfile dest="libs/libjansson" src="libjansson"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="7b84316d5cc85118413a29fdfc68d9c4fc4db40c" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="0064f92aed858814a43f15ba55a58eeea95dd7ed" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="bf05faa0e21c35792fd36a98558938ce532c92b1" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
