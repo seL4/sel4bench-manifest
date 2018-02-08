@@ -39,7 +39,7 @@
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="022fcfe98947afbbbb54ec6a86eba6f5b7b4dd13" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="83eb318119fc9748bd06a3630ec742be782eaaa9" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
@@ -47,7 +47,7 @@
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="sel4bench.git" path="projects/sel4bench" revision="f43ff1ced32a19e122c04ff7e91334abeef86c0f" upstream="master">
+  <project name="sel4bench.git" path="projects/sel4bench" revision="39c876a3b621fc14350b21558c78f376ed1d51c8" upstream="master">
     <linkfile dest="Makefile" src="Makefile"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="Kconfig" src="Kconfig"/>
