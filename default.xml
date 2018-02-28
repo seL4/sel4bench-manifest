@@ -22,8 +22,8 @@
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="567e233ae72cb9bd5095d0a14ade5c823b945f99" upstream="master">
     <linkfile dest="libs/libjansson" src="libjansson"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="ce2efb33c806105795badef471a074af32bd2226" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="c1d58e5899ea44feae567f71b99a2f5ff608545f" upstream="master">
+  <project name="seL4.git" path="kernel" revision="7ce75bb2ae10e929fe50f9e0b263505d06f81566" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="b9927ab00025b587deca0e52ce103c01e5ed81f9" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
@@ -39,7 +39,7 @@
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="03a26f9031af7243e41ba82a93e5e451e239be1a" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="af48b52d5a03a3a7a62c64fe89eb5f30d5234144" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
@@ -47,7 +47,7 @@
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="sel4bench.git" path="projects/sel4bench" revision="39c876a3b621fc14350b21558c78f376ed1d51c8" upstream="master">
+  <project name="sel4bench.git" path="projects/sel4bench" revision="c3c4d58aa1ef580b88b31c749f7b619fea24ae52" upstream="master">
     <linkfile dest="Makefile" src="Makefile"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="Kconfig" src="Kconfig"/>
