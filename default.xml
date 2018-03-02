@@ -23,7 +23,7 @@
     <linkfile dest="libs/libjansson" src="libjansson"/>
   </project>
   <project name="seL4.git" path="kernel" revision="7ce75bb2ae10e929fe50f9e0b263505d06f81566" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="b9927ab00025b587deca0e52ce103c01e5ed81f9" upstream="master">
+  <project name="seL4_libs" path="projects/seL4_libs" revision="239f6dc6364c3bfd40e72bf3efdc96360d86a744" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
@@ -47,7 +47,7 @@
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="sel4bench.git" path="projects/sel4bench" revision="c3c4d58aa1ef580b88b31c749f7b619fea24ae52" upstream="master">
+  <project name="sel4bench.git" path="projects/sel4bench" revision="2d65cc7f5869c7c6daeccde5d3077d459fac765e" upstream="master">
     <linkfile dest="Makefile" src="Makefile"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="Kconfig" src="Kconfig"/>
