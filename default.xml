@@ -19,10 +19,10 @@
   <project name="musllibc.git" path="projects/musllibc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
-  <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="bed6fde6c34a6beb79b8cb77d3f7c162a37aa5a5" upstream="master">
+  <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="defe41172cdc78e99f4bbab0be5f37ab6f0f625d" upstream="master">
     <linkfile dest="libs/libjansson" src="libjansson"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="30738188dbd41016713d03cd5c3f20f5098c36f4" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="95a300fe5094687157652256f2692086c63b9ac1" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="6ee8ecb02b7071ee0eb505277e77bf30d1b5dc1d" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
@@ -56,7 +56,7 @@
     <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
     <linkfile dest="libs/libsel4benchsupport" src="libsel4benchsupport"/>
   </project>
-  <project name="util_libs" path="projects/util_libs" revision="a8a25716c14a72d7af0d775c8a25ed3088db09e0" upstream="master">
+  <project name="util_libs" path="projects/util_libs" revision="bb731a43c1f624e6fee15b76a3896ade76002a14" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
