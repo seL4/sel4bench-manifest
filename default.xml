@@ -22,7 +22,7 @@
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="defe41172cdc78e99f4bbab0be5f37ab6f0f625d" upstream="master">
     <linkfile dest="libs/libjansson" src="libjansson"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="315562d35c56fdab9671f92d67abb1d7e711c2e4" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="6ae2ad9e21a50c7b240edf7f61cd66b45699d5ca" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="6ee8ecb02b7071ee0eb505277e77bf30d1b5dc1d" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
@@ -39,7 +39,7 @@
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="413656df3d75a6ffd493ae4693b386fb6d67a6bc" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="a31bcc4b92a3daaa796da70bf5c42289851214a1" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
