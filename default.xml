@@ -22,8 +22,8 @@
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="defe41172cdc78e99f4bbab0be5f37ab6f0f625d" upstream="master">
     <linkfile dest="libs/libjansson" src="libjansson"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="6ae2ad9e21a50c7b240edf7f61cd66b45699d5ca" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="6ee8ecb02b7071ee0eb505277e77bf30d1b5dc1d" upstream="master">
+  <project name="seL4.git" path="kernel" revision="f58d22af8b6ce8bfccaa4bac393a31cad670e7c1" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="a34751b760261a8bb519d33a5dd440a24c724f8d" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
@@ -39,7 +39,7 @@
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="a31bcc4b92a3daaa796da70bf5c42289851214a1" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="1f57b8aa4c57619d21b3c5d35c6d1378d799cb5a" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
@@ -56,7 +56,7 @@
     <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
     <linkfile dest="libs/libsel4benchsupport" src="libsel4benchsupport"/>
   </project>
-  <project name="util_libs" path="projects/util_libs" revision="bb731a43c1f624e6fee15b76a3896ade76002a14" upstream="master">
+  <project name="util_libs" path="projects/util_libs" revision="54a810727b0a8fa72a2edd544aa072453df88ef3" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
