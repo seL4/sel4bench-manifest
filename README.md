@@ -15,7 +15,7 @@ Manifest of the seL4bench project, which contains a set of microbenchmarks for s
 
 # Getting the project
 
-Use the repo tool as described on [the wiki](https://wiki.sel4.systems/Getting%20started#Get_Google.27s_.22Repo.22_tool)
+Use the repo tool as described on [the wiki](https://docs.sel4.systems/GettingStarted#get-googles-repo-tool)
 
     mkdir sel4bench
     cd sel4bench
