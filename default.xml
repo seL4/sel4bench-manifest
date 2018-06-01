@@ -16,50 +16,14 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="musllibc.git" path="projects/musllibc" revision="fad6e9e25c82bb763f0680c73f0eeaab36097ab2" upstream="sel4">
-    <linkfile dest="libs/libmuslc" src="."/>
-  </project>
-  <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="defe41172cdc78e99f4bbab0be5f37ab6f0f625d" upstream="master">
-    <linkfile dest="libs/libjansson" src="libjansson"/>
-  </project>
+  <project name="musllibc.git" path="projects/musllibc" revision="fad6e9e25c82bb763f0680c73f0eeaab36097ab2" upstream="sel4"/>
+  <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="defe41172cdc78e99f4bbab0be5f37ab6f0f625d" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="c3d0542337e898678a12c09d5cb8f11f723e1d10" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">
-    <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
-    <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
-    <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
-    <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
-    <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
-    <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
-    <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
-    <linkfile dest="libs/libsel4simple" src="libsel4simple"/>
-    <linkfile dest="libs/libsel4simple-default" src="libsel4simple-default"/>
-    <linkfile dest="libs/libsel4simple-stable" src="libsel4simple-stable"/>
-    <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
-    <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
-    <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
-    <linkfile dest="libs/libsel4test" src="libsel4test"/>
-  </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="b0594338219bb2e3dffac1eac3c7ab7d65b9f074" upstream="master">
-    <linkfile dest="tools/common" src="common-tool"/>
-    <linkfile dest="tools/kbuild" src="kbuild-tool"/>
-    <linkfile dest="tools/elfloader" src="elfloader-tool"/>
-    <linkfile dest="tools/cmake-tool" src="cmake-tool"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="791ef12ff77298093c3ea9196542f839375593e0" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="sel4bench.git" path="projects/sel4bench" revision="adcd43f78a01fcf7fd97bdf69502e52c609cfcd8" upstream="master">
-    <linkfile dest="Makefile" src="Makefile"/>
-    <linkfile dest="Kbuild" src="Kbuild"/>
-    <linkfile dest="Kconfig" src="Kconfig"/>
-    <linkfile dest="configs" src="master-configs"/>
-    <linkfile dest="apps" src="apps"/>
-    <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
-    <linkfile dest="libs/libsel4benchsupport" src="libsel4benchsupport"/>
-  </project>
-  <project name="util_libs" path="projects/util_libs" revision="9e249f940b84a9c803f79d34fbcfc5c98e722bfc" upstream="master">
-    <linkfile dest="libs/libcpio" src="libcpio"/>
-    <linkfile dest="libs/libelf" src="libelf"/>
-    <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
-    <linkfile dest="libs/libutils" src="libutils"/>
-  </project>
+  <project name="sel4bench.git" path="projects/sel4bench" revision="e4e4084db129bfb270460b017d736c415a98c28c" upstream="master"/>
+  <project name="util_libs" path="projects/util_libs" revision="9e249f940b84a9c803f79d34fbcfc5c98e722bfc" upstream="master"/>
 </manifest>
