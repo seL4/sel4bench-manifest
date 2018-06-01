@@ -21,6 +21,7 @@ Use the repo tool as described on [the wiki](https://docs.sel4.systems/GettingSt
     cd sel4bench
     repo init -u https://github.com/seL4/sel4bench-manifest.git
     repo sync
-    make sabre_release_O2_defconfig # replace with platform of your choice
-    make oldconfig
-    make
+    mkdir build
+    cd build
+    ../init-build.sh -DPLATFORM=sabre -DHARDWARE=TRUE -DAARCH32=TRUE -DRELEASE=TRUE -DFAULT=TRUE -DFASTPATH=TRUE
+    ninja
