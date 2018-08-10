@@ -18,7 +18,7 @@
   
   <project name="musllibc.git" path="projects/musllibc" revision="e6cd7b1622fdec33dcb341ccbb3a78596559c6d5" upstream="sel4"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="7127af645909a85c11c9f09655ae4971d3c6a0fb" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="122aaeb5d583dc1c8ffcd2b235b5f97a22472af7" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="9d218f8ca2bda2011c423fbce7243a0d0259756d" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="7528b23f85dffafcb26a966ad7fa99e0efc13427" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="e5306979679fab74faca9f4e2ee02e478f7c9bff" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
