@@ -17,8 +17,8 @@
   <default remote="seL4" revision="master"/>
   
   <project name="musllibc.git" path="projects/musllibc" revision="e6cd7b1622fdec33dcb341ccbb3a78596559c6d5" upstream="sel4"/>
-  <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="a574cbe0e6970f5e03eff3faaa78eac4c30bb599" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="d419b41c7bdfa036361d68c96a05097e0776dd3e" upstream="master"/>
+  <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="fa4568ed2da4fe789e5b7f9821c56a5fafe83818" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="6289da1a763b45128bcb5296982c608da6432201" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="769afb2b57331117f6ca674d71c112e0bc380c0f" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
