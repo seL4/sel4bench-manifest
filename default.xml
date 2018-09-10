@@ -16,11 +16,11 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="musllibc.git" path="projects/musllibc" revision="e6cd7b1622fdec33dcb341ccbb3a78596559c6d5" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="f1f448f817971b08224778fefca749722f416dc8" upstream="sel4"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="bc4580c64e085c6317a373bb2fbe0772d75ba383" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="5ee9dec227988fb43aac704718d93d8109105ef2" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="8d002567af0ca425b6ce785b51e73e7d97d65df3" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="7a8015f4b8372ca16954804ec48f0866a17296af" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="69bf047de2786863f6f028cfe072e969147ada4c" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
