@@ -18,12 +18,12 @@
   
   <project name="musllibc.git" path="projects/musllibc" revision="f1f448f817971b08224778fefca749722f416dc8" upstream="sel4"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="5ee9dec227988fb43aac704718d93d8109105ef2" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="8d002567af0ca425b6ce785b51e73e7d97d65df3" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="21ef38254f50a63b5278f62f97ed75f0f8857fa8" upstream="master">
+  <project name="seL4.git" path="kernel" revision="924d1c26390bb4af294308c03353379b295b3646" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="6832405c4eb7bd650964fba5f3990c41886bd357" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="9476bb8ace1e294a457665bb7ed4aab79402ea10" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="sel4bench.git" path="projects/sel4bench" revision="e4e4084db129bfb270460b017d736c415a98c28c" upstream="master"/>
-  <project name="util_libs" path="projects/util_libs" revision="5ba7c9daf4a14f9cb39f8827190af50f64c2b85e" upstream="master"/>
+  <project name="util_libs" path="projects/util_libs" revision="e4bf6f30ebc6448744c48e5a1c92a17de33c4371" upstream="master"/>
 </manifest>
