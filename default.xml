@@ -18,14 +18,14 @@
   
   <project name="musllibc.git" path="projects/musllibc" revision="def9ee4b77825db615a7332ceea00284866f1124" upstream="sel4"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="6a31a57ef8677b2781e89bb3c3cd76a93720216c" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="277dc1b39aa43b68781dcf0d59692214cca63139" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="612f188da70dd3a347309da0134b0aa987566b71" upstream="master">
+  <project name="seL4.git" path="kernel" revision="4d0f02c029560cae0e8d93727eb17d58bcecc2ac" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="c2dcae0347f1dfecceb5d08a62faa2f09eae81a4" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="20de8d6b1d80f20efad7abd4d219b0041110971c" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4bench.git" path="projects/sel4bench" revision="9e9e2afa273b7ad28ad69a35645677ebc7b7ad64" upstream="master">
+  <project name="sel4bench.git" path="projects/sel4bench" revision="dd661a4c2d9c99aeaac77dc8e6319c36139b90f1" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="util_libs" path="projects/util_libs" revision="98aaebe56c66d46576485216f8c4626ed76a3757" upstream="master"/>
