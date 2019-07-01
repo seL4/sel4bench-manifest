@@ -28,6 +28,6 @@
   <project name="sel4bench.git" path="projects/sel4bench" revision="ca5b01ab5599e211e4c9283097e61f60749b4410" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="sel4runtime.git" path="projects/sel4runtime" remote="seL4_projects" revision="82c704af0e2e133564d17a23645cc1bfd9ae78de" upstream="master"/>
-  <project name="util_libs" path="projects/util_libs" revision="dcc683b32be71e1cc98cb047e18a66e9e3ef9947" upstream="master"/>
+  <project name="sel4runtime.git" path="projects/sel4runtime" remote="seL4_projects" revision="40b802ba068539e02d565b9ef24e388839e81441" upstream="master"/>
+  <project name="util_libs" path="projects/util_libs" revision="c70f064b8f758473e15fc82e98a22496cd90c374" upstream="master"/>
 </manifest>
