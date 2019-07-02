@@ -18,9 +18,9 @@
   
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="a06690fbe95a91a4b5ee5f91970cba48c07ad5b3" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="55ad2c4dca540bc948f37ac6790aac3decafcdce" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="2c39ace1ba20d806ffdb09a9cfb2223a352eebcd" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="e103fc65c0423645050593d5ea5a4cf2a8380d01" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="5c4db492d793d67ff84e5ec6ea1e7f181c9b8b61" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
@@ -29,5 +29,5 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="seL4_projects" revision="40b802ba068539e02d565b9ef24e388839e81441" upstream="master"/>
-  <project name="util_libs" path="projects/util_libs" revision="c70f064b8f758473e15fc82e98a22496cd90c374" upstream="master"/>
+  <project name="util_libs" path="projects/util_libs" revision="d36f3a96a4d9df1d131288fc8a62c9ed8eb0f544" upstream="master"/>
 </manifest>
