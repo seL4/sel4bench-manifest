@@ -15,6 +15,8 @@
 fetch="."
 />
 <remote name="seL4_projects" fetch="../SEL4PROJ/"/>
+<remote fetch="https://github.com/nanopb" name="nanopb" />
+
 
 <default revision="master"
 remote="seL4"
@@ -35,5 +37,6 @@ remote="seL4"
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
     <linkfile src="settings.cmake" dest="settings.cmake"/>
 </project>
+<project name="nanopb" path="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master" remote="nanopb"/>
 
 </manifest>
