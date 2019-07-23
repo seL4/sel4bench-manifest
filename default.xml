@@ -11,21 +11,24 @@
      @TAG(DATA61_BSD)
 -->
 <manifest>
+  <remote fetch="https://github.com/nanopb" name="nanopb"/>
   <remote fetch="." name="seL4"/>
   <remote fetch="../SEL4PROJ/" name="seL4_projects"/>
   
   <default remote="seL4" revision="master"/>
   
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
+  <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="40fe7a980d1af5776db30e56268057adaaf2525a" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="decd4f87bbc884d69239b5a9e800ea2e2937c28f" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="8869a2c6368125008c5a8e4dbaa1e0ff659f0a47" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="1688dd94dd5613156651d37056961867a5373ccf" upstream="master">
+  <project name="seL4_libs" path="projects/seL4_libs" revision="7476936470563282bbfc1cfa2ab766353ef42f44" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="0e736cf2610a64c5333b5beb2d4b54f435109b22" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4bench.git" path="projects/sel4bench" revision="cda7be934f2d552866431005399a0c14d5dd1fff" upstream="master">
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="109e9947b4951ac1760d254f609aee419b67d5f7" upstream="master"/>
+  <project name="sel4bench.git" path="projects/sel4bench" revision="a8f6bac569678a473b75e760ea951573d3e7c10b" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
