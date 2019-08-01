@@ -22,12 +22,12 @@
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="40fe7a980d1af5776db30e56268057adaaf2525a" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="158ab9a3eba1358e999218b19ea671146801fcc3" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="11e4ef23082e9e7eafb086d462b7de5630a7e810" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="f0674bd6ce6b640921cd86032d63dd86593b3573" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="13f0ced490dc9ae7566df72978063dbf7688516e" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="109e9947b4951ac1760d254f609aee419b67d5f7" upstream="master"/>
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="ba8de51828024fe1de88b2098690f9515e32347f" upstream="master"/>
   <project name="sel4bench.git" path="projects/sel4bench" revision="c363b5dd879008ba3a765dc682049dafa0ff6be3" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
