@@ -28,7 +28,7 @@
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="62afbd9251c73182c0ea4381b38848d363a86802" upstream="master"/>
-  <project name="sel4bench.git" path="projects/sel4bench" revision="5e7c5dfb9974244e04ed09f2af91a6d463d5a18d" upstream="master">
+  <project name="sel4bench.git" path="projects/sel4bench" revision="b85b50ebc2838c083953c9a4802443c8cc1aefb3" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
