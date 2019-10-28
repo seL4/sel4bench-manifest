@@ -20,9 +20,9 @@
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="8a7d481134b685a66c7a25058f6f1b331dd582f7" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="4efbd4365e34cefba49d0c71d4d8a86ac45f2fca" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="59acc870d022eb1bde06518c1bb59a42b2361378" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="0c28d76be7020f371ebf38ae239544a317594a66" upstream="master">
+  <project name="seL4.git" path="kernel" revision="7889580a7dce3bc21758c39da64d461e5dad8ba4" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="d7be11ef70788b8f50232b5568088903077c5fae" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="01517aff0b44e93c7caf01fe1c3fc6c93e72c402" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
@@ -30,6 +30,6 @@
   <project name="sel4bench.git" path="projects/sel4bench" revision="cdbb95fd953fe1baf297954fad668397597273f1" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="sel4runtime.git" path="projects/sel4runtime" remote="seL4_projects" revision="4a086d3b2650b4804bf4ebed1e4df6e046181706" upstream="master"/>
-  <project name="util_libs" path="projects/util_libs" revision="199986a8aecf21b0aa50d2c0544e153dad2d7875" upstream="master"/>
+  <project name="sel4runtime.git" path="projects/sel4runtime" remote="seL4_projects" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
+  <project name="util_libs" path="projects/util_libs" revision="697ffd536988f044ad09a309a7394bd1ddfa896d" upstream="master"/>
 </manifest>
