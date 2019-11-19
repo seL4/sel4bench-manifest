@@ -20,16 +20,16 @@
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="f92793e07852f8672fe5a4cd7cd4688f56b889cf" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="57872537e3522948f284c5cf52cb6dedb32cb237" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="eb2bdf8463e9a6592e58db3b3111853affb856d1" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="586ab96254fc5af6bb1a7bab0b0ad6cacf1dfe87" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="d352723735727e90a0faa75bbd5e97d0d5606dea" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="afbad19d98166ff6c2b92696f598e92dc75da6ee" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="62afbd9251c73182c0ea4381b38848d363a86802" upstream="master"/>
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="33cf99b5ebd36c0ecd2032a4b76f6fb992ad1016" upstream="master"/>
   <project name="sel4bench.git" path="projects/sel4bench" revision="cdbb95fd953fe1baf297954fad668397597273f1" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="seL4_projects" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
-  <project name="util_libs" path="projects/util_libs" revision="16573383f161c50be7b05f2f76d87b1a6d202e46" upstream="master"/>
+  <project name="util_libs" path="projects/util_libs" revision="4e14660568aa82b62402a4bdfea234f9dd0c3140" upstream="master"/>
 </manifest>
