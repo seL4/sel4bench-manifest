@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright 2019, Data61
+     Copyright 2020, Data61
      Commonwealth Scientific and Industrial Research Organisation (CSIRO)
      ABN 41 687 119 230.
 
@@ -19,17 +19,17 @@
   
   <project name="musllibc.git" path="projects/musllibc" revision="a0a3af0e3a54fb3985352b4a3160503ecc8c260c" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
-  <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="9571f8cb1538a555288f0ec4005cb0f475365c27" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="057d7f8933d6f76d471e955446c3f6d7e8b8efd1" upstream="master"/>
+  <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="23bb3e91e398c5ae8b0fbad2aa4e2a9cddaa2da9" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="01cea266d9c88cc0ea69d09e08a2dfd56a98b558" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="7ae68ec7f731156efb3bc52e9ff9795c50ca641f" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="0875e970c807b4dff639b08ac32ea483081bd187" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="8008badd8c4a9ec8ca60497030fab32981b41245" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="0d35536e58320fed71545b4ad7849bbe155555c3" upstream="master"/>
-  <project name="sel4bench.git" path="projects/sel4bench" revision="f460473be1acb61e8c53059174bb8ee48b28f26f" upstream="master">
+  <project name="sel4bench.git" path="projects/sel4bench" revision="4a101185b5cf6c55028bd078512e28aedbcc2c36" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="seL4_projects" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
-  <project name="util_libs" path="projects/util_libs" revision="94f111123dd882b5f61f9381201ace3f54c5c177" upstream="master"/>
+  <project name="util_libs" path="projects/util_libs" revision="46b8f8807e305392bc685cd7e9e94a8588d39e07" upstream="master"/>
 </manifest>
