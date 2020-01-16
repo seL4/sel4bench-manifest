@@ -20,13 +20,13 @@
   <project name="musllibc.git" path="projects/musllibc" revision="a0a3af0e3a54fb3985352b4a3160503ecc8c260c" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="23bb3e91e398c5ae8b0fbad2aa4e2a9cddaa2da9" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="b4e529ab2cb4036e7a6bfbc2155de7c419fccc71" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="b45ca5cd71751019793ea57bcfdeecd1c0a1fa5f" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="7ae68ec7f731156efb3bc52e9ff9795c50ca641f" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="8008badd8c4a9ec8ca60497030fab32981b41245" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="0d35536e58320fed71545b4ad7849bbe155555c3" upstream="master"/>
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="27d98a3cc6e5391df17962437d3ccd6592b34e51" upstream="master"/>
   <project name="sel4bench.git" path="projects/sel4bench" revision="39b7fe3198d3d3b963ab2946bc40ccfd26b28180" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
