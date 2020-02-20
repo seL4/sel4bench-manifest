@@ -20,9 +20,9 @@
   <project name="musllibc.git" path="projects/musllibc" revision="a3b8da29b70f1b794513a8cd6a007562865a1e53" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="5fa79f91fab96b17a9b753cca568a3c5969e85a7" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="56a19e05dc3ff5f37e1cb56692435df9d02512f3" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="91f8ff706cc373c7e3dc4347bb7f5b3cfac6b4d2" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="72efa897a6c8abba8324d2cfedff5e64b5159dc8" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="c65e95da4ff07453ca35717a446621d642f76786" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="82db20b1b330a09189cb0e00353ca2b51480adc2" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
