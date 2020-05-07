@@ -21,16 +21,16 @@
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="projects_libs" path="projects/projects_libs" remote="seL4_projects" revision="cfbfec4d8730607d28e9fc662744a4a61a3e35dd" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="seL4_projects" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="3f9a4cd80982e9a6a5d6cb87c49968138e39eda4" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="d5d54a0d5596e7a708a55040b58a1bb286dc9545" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="1f177036a60d8b473a9c3ffc3858a62e73c2e224" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="a5de0e555b25655a798bdcdecee154202242da11" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="85822cfce9f883c756100189c6fe9b0b551a692a" upstream="master"/>
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4_projects" revision="d69f819e8aac4ebc5669027d1fefbe01ddfc3d27" upstream="master"/>
   <project name="sel4bench.git" path="projects/sel4bench" revision="a9c64baa1018b4d771a93f5a708ef15e804b6d44" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="seL4_projects" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project name="util_libs" path="projects/util_libs" revision="f73984d7252e59c59e5fe8d3cc28164b597a3bb7" upstream="master"/>
+  <project name="util_libs" path="projects/util_libs" revision="731c49101fac8ce5281001aa3e90883e7ca09bd9" upstream="master"/>
 </manifest>
