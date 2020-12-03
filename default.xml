@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright 2020, Data61
-     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
-     ABN 41 687 119 230.
+     Copyright 2020, Data61, CSIRO
 
-     This software may be distributed and modified according to the terms of
-     the BSD 2-Clause license. Note that NO WARRANTY is provided.
-     See "LICENSE_BSD2.txt" for details.
-
-     @TAG(DATA61_BSD)
+     SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 <manifest>
   <remote name="nanopb" fetch="https://github.com/nanopb"/>
   <remote name="seL4" fetch="."/>
   <remote name="seL4_projects" fetch="../SEL4PROJ/"/>
-  
+
   <default remote="seL4" revision="master"/>
-  
+
   <project name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="projects_libs" path="projects/projects_libs" revision="88736edacee0d6583824befbedb337fdd4c9bb4e" upstream="master" dest-branch="master"/>
