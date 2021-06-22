@@ -9,9 +9,9 @@
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="seL4" fetch="."/>
   <remote name="seL4_projects" fetch="../SEL4PROJ/"/>
-  
+
   <default remote="seL4" revision="master"/>
-  
+
   <project name="musllibc.git" path="projects/musllibc" revision="c7aa943a2ad4fccaccf52a1f957bf8860f57f5b0" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9"/>
