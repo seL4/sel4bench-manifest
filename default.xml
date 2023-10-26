@@ -15,13 +15,13 @@
   <project name="nanopb" remote="nanopb" revision="1466e6f953835b191a7f5acf0c06c941d4cd33d9" upstream="master" dest-branch="refs/tags/0.4.3"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9" upstream="refs/tags/v0.8" dest-branch="refs/tags/v0.8"/>
   <project name="projects_libs" path="projects/projects_libs" revision="1e7f0b6ec0405b3288c606fd7e782660ace4aa07" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="1c7a0cb549021bc0781b49aa69359ee8d035981c" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="b4592ebc975a690fe9ef439cc39da3b2fa3eb89c" upstream="master" dest-branch="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="f8aabb6d637c43b07af97b8d36224adb5532c247" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="4501c69b39462ccb117d9bffb662c97d4e79085e" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="df31d5a844993166c88c8a1ccce5dd42018a7296" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="eb42051d1217405832165869e034ab8860ed4129" upstream="master" dest-branch="master"/>
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="bfe54e3a7b87b042610d937ac5289fe2efe9fe8e" upstream="master" dest-branch="master"/>
   <project name="sel4bench.git" path="projects/sel4bench" revision="b7a570ad5a03ea321f2c7cb1d2b454bffe292a41" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
