@@ -15,7 +15,7 @@
   <project name="nanopb" remote="nanopb" revision="1466e6f953835b191a7f5acf0c06c941d4cd33d9" upstream="master" dest-branch="refs/tags/0.4.3"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9" upstream="refs/tags/v0.8" dest-branch="refs/tags/v0.8"/>
   <project name="projects_libs" path="projects/projects_libs" revision="259b2c747c9558e18d2356f5c769a36d3e7cd41a" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="233c984e3b3c61ef58a477c092e67c94a6f2f3fc" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="c0749e622753a8819e3b3a6a23a93f1b039e4f32" upstream="master" dest-branch="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="2580739bde15ec0dac1bef43a4e313e3752b7692" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="26f94df7e97a04f8ee49c1e94a0aa12036581f71" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
